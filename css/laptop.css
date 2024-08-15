@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* banner hinh anh tren cung */
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 500px;
+}
+/* ten trong banner */
+
+.banner-name {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+/* hinh anh banner */
+.banner-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+/* dong chu Fullstack Developer */
+.banner-job {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  color: #aaa;
+}
+/* thanh navigation */
+.topnav {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  border-left: 1px solid #ccc;
+  color: black;
+}
+/* dung cho cac phan tu can border-right */
+.border-right {
+  border-right: 1px solid #ccc;
+}
+/* ten trong thanh nav nhung bi an vi chen hinh anh */
+
+.nav-name {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  color: white;
+}
+
+.nav-name-title {
+  font-size: 20px;
+  text-align: center;
+}
+.nav-name-job {
+  font-size: 10px;
+  text-align: center;
+  color: #ccc;
+}
+i {
+  color: #199cdb;
+}
+/* phan thong tin ca nhan */
+.info {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+
+  font-size: 10px;
+  line-height: 2;
+}
+
+.info h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #000;
+  font-weight: lighter;
+}
+.job-aim {
+  background-color: #f0f0f0;
+  color: #888;
+  font-weight: lighter;
+  padding: 40px;
+}
+.per-info {
+  padding: 40px;
+  font-weight: lighter;
+  background-color: #e8e8e8;
+  color: #888;
+  /* display: none; */
+}
+.icons {
+  margin-top: 15px;
+}
+/* phan thong tin nghe nghiep */
+.job-info {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+  gap: 20px;
+  margin: 20px 20%;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #888;
+}
+.job-info h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.job-info h4 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.job-info h3,
+h4 {
+  color: black;
+}
+/* list marker  */
+.job-info li::marker {
+  color: #199cdb;
+  font-size: 20px;
+}
+.job-info ul {
+  padding-left: 20px;
+}
+.job-info li {
+  line-height: 1.5;
+}
+.job-info-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* margin-bottom: 50px; */
+}
+.job-info-grid-cell {
+  border: 1px solid #eee;
+  /* padding: 50px 0px; */
+}
+@media screen and (min-width: 993px) {
+  .job-info-grid-cell {
+    height: 100%;
+  }
+}
+.job-info-header i {
+  color: #bbb;
+  font-size: 40px;
+}
+/* chu hien tai nen xanh */
+.now {
+  color: white;
+  background-color: #199cdb;
+  padding: 2px;
+  border-radius: 15%;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+/* phan so thich */
+/* icon trong so thich */
+.hobby-ic {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  align-content: center;
+  color: #199cdb;
+  border: 1px solid #199cdb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.hobby {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.hobby-word {
+  width: 50px;
+  font-size: 10px;
+}
+/* thuoc do  */
+.measurement-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.measurement-grey {
+  background: #eee;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.language-skill-content {
+  font-size: 10px;
+}
+/* phan chung chi giai thuong */
+.certificates-container {
+  background-color: #f0f0f0;
+  padding: 5px 20%;
+}
+.certificates {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+.certificates h4 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.certificates-img {
+  width: 150px;
+  height: auto;
+}
+/* thanh phan can border right va top */
+.certificates .border-right {
+  border-right: 1px solid #d6c08d;
+}
+.border-tops {
+  border-top: 1px solid #d6c08d;
+}
+.border-bottoms {
+  border-bottom: none;
+}
+.certificates-cell {
+  display: flex;
+  gap: 30px;
+  width: auto;
+  line-height: 1.5;
+  font-size: 10px;
+  margin-bottom: 40px;
+  color: #777;
+}
+.certificates-cell h4 {
+  margin-bottom: 10px;
+}
+.certificates-container h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+/* phan du an */
+.project-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  padding: 5px 20%;
+  gap: 20px;
+}
+.project-img {
+  width: 100%;
+}
+.project-header {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #888;
+}
+.project-header i {
+  color: #888;
+}
+
+/* so 2021 nen xanh */
+.special-2021 {
+  background-color: #199cdb;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+  height: 15px;
+  /* padding-top: 5px; */
+
+  border-radius: 12.5px;
+}
+/* bang project */
+.project-table {
+  font-size: 10px;
+  color: #888;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  height: 150px;
+}
+.project-table th {
+  font-weight: normal;
+  text-align: left;
+  width: 30%;
+}
+.project-table tr {
+  border: 1px solid #ddd;
+}
+.project-table td,
+th {
+  vertical-align: top;
+  line-height: 1.5;
+  padding: 5px;
+}
+.project h4 {
+  font-weight: lighter;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  font-size: 14px;
+  padding: 15px;
+}
+.project h3 {
+  padding-left: 320px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.project {
+  padding-bottom: 20px;
+}
+/* footer */
+footer {
+  display: inline-block;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #888;
+  font-size: 60%;
+  position: relative;
+  padding-left: 40px;
+}
+footer i {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  font-size: 20px;
+}
+/* avatar nang cao */
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid white;
+  position: absolute;
+}
+.hidden {
+  display: none;
+}
+.view-btn {
+  background-color: #f9cc63;
+  color: black;
+  width: 30%;
+  padding-left: 3%;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#cell-1:hover #btn-1 {
+  display: block;
+}
+#cell-2:hover #btn-2 {
+  display: block;
+}
+#cell-3:hover #btn-3 {
+  display: block;
+}
+#cell-4:hover #btn-4 {
+  display: block;
+}
+#cell-5:hover #btn-5 {
+  display: block;
+}
+#cell-6:hover #btn-6 {
+  display: block;
+}

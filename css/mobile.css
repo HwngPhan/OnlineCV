@@ -1,0 +1,32 @@
+@media screen and (max-width: 576px) {
+  .avatar {
+    display: none;
+  }
+  .nav-name {
+    display: none;
+  }
+  .topnav {
+    flex-direction: column;
+    border: none;
+    align-items: start;
+  }
+  .topnav .border-right {
+    border-right: none;
+  }
+  .topnav a {
+    padding: 5px;
+  }
+  .certificates .border-right {
+    border-right: none;
+  }
+  .border-tops {
+    border-top: none;
+  }
+
+  .border-bottoms {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certificates-cell {
+    align-items: center;
+  }
+}

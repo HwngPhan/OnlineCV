@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+  .nav-name {
+    display: none;
+  }
+  .certificates-cell {
+    flex-direction: column;
+  }
+}
