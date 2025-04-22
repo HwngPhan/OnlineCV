@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Assessment3</title>
+    <title>OnlineCV</title>
   </head>
   <body>
     <script
@@ -31,15 +31,17 @@
     </div>
     <nav class="topnav">
       <a href="#information"><i class="icon-user"></i>THÔNG TIN</a>
-      <a class="border-right" href="#"
+      <a class="border-right" href="#about-me"
         ><i class="icon-doc-text-inv"></i>LÝ LỊCH</a
       >
       <div class="nav-name">
         <div class="nav-name-title">Phan Phước Hưng</div>
         <div class="nav-name-job">Full Stack Developer</div>
       </div>
-      <a href="#"><i class="icon-mail-alt"></i>CHỨNG CHỈ</a>
-      <a href="#" class="border-right"><i class="icon-star-1"></i>DỰ ÁN</a>
+      <a href="#certifications"><i class="icon-mail-alt"></i>CHỨNG CHỈ</a>
+      <a href="#projects" class="border-right"
+        ><i class="icon-star-1"></i>DỰ ÁN</a
+      >
       <img src="images/avatar.jpg" alt="avatar" class="avatar" />
     </nav>
     <div id="information" class="info container-fluid p-0">
@@ -48,11 +50,10 @@
           <div class="job-aim h-100">
             <h3>Mục tiêu nghề nghiệp</h3>
             <div>
-              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
-              của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
-              Developer, có thể vận dụng những kiến thức đã được trau dồi và
-              không ngừng học hỏi để phát triển bản thân, cũng như hoành thành
-              tốt nhất công việc được giao.
+              Em mong muốn mình sẽ được làm việc với vị trí Fullstack Developer,
+              có thể vận dụng những kiến thức đã được trau dồi và không ngừng
+              học hỏi để phát triển bản thân, cũng như hoành thành tốt nhất công
+              việc được giao.
             </div>
           </div>
         </div>
@@ -99,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="job-info">
+    <div id="about-me" class="job-info">
       <div class="container">
         <div class="row g-3">
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -108,7 +109,7 @@
                 <h3>Kinh nghiệm</h3>
                 <i class="ic-toolbox"></i>
               </div>
-              <ul class="hidden" id="exp">
+              <!-- <ul class="hidden" id="exp">
                 <li>
                   <h4>Full Stack Developer - Công ty Y</h4>
                   <div>
@@ -130,8 +131,9 @@
                     Sử dụng các công cụ: Figma, Canva, PTS.
                   </div>
                 </li>
-              </ul>
-              <button class="view-btn hidden" id="btn-1">● view more</button>
+              </ul> -->
+              <div class="hidden" id="exp">None</div>
+              <button class="view-btn hide" id="btn-1">● view more</button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -143,29 +145,20 @@
               <ul class="hidden" id="edu">
                 <li>
                   <h4>FUNiX</h4>
-                  <em>06/2021 - 05/2022</em>
-                  <div>
-                    - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br />-
-                    GPA: 9/10
-                  </div>
+                  <em>06/2022 - 01/2023</em>
+                  <div>- Hoàn thành chương trình lập trình Web cơ bản.</div>
                 </li>
 
                 <li>
-                  <h4>Cử nhânh - ĐH FPT</h4>
-                  <em>08/2016 - 07/2019</em>
+                  <h4>Năm 3 Đại học Bách Khoa</h4>
+                  <em>2022 - 2026</em>
                   <div>
-                    - Chuyên ngành: Kỹ thuật phầm mềm.<br />- GPA: 3.2/4
-                  </div>
-                </li>
-                <li>
-                  <h4>Đại học Hà Nội</h4>
-                  <em>08/2016 - 02/2018</em>
-                  <div>
-                    - Hệ từ xa, Chuyên ngànhL Ngôn ngữ Nhật<br />- GPA: 2.8/4
+                    - Ngành: Khoa học máy tính.<br />- Chuyên ngành : Công nghệ
+                    phầm mềm.<br />- GPA: 3.2/4.0
                   </div>
                 </li>
               </ul>
-              <button class="view-btn hidden" id="btn-2">● view more</button>
+              <button class="view-btn hide" id="btn-2">● view more</button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -176,25 +169,12 @@
               </div>
               <ul class="hidden" id="act">
                 <li>
-                  <h4>FPT Edu Hackathon 2019</h4>
-                  <em>03/2019 - 05/2019</em>
-                  <div>
-                    - Giải 3 bảng A<br />- Đề tài: Trang web về phân loại rác
-                    thải.
-                  </div>
-                </li>
-                <li>
-                  <h4>Câu lạc bộ Z</h4>
-                  <em>08/2018 - 08/2019</em>
-                  <div>- Trưởng ban chuyên môn</div>
-                </li>
-                <li>
-                  <h4>Câu lạc bộ Z</h4>
-                  <em>08/2016</em>
-                  <div>- Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam- Nhật Bản</div>
+                  <h4>Câu lạc bộ BKFC</h4>
+                  <em>09/2022 - 05/2023</em>
+                  <div>- Hỗ trợ trường trong công tác tuyển sinh.</div>
                 </li>
               </ul>
-              <button class="view-btn hidden" id="btn-3">● view more</button>
+              <button class="view-btn hide" id="btn-3">● view more</button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -217,7 +197,7 @@
                   <div class="hobby-word">Nấu ăn</div>
                 </div>
               </div>
-              <button class="view-btn hidden" id="btn-4">● view more</button>
+              <button class="view-btn hide" id="btn-4">● view more</button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -231,12 +211,8 @@
                 <span class="measurement-blue"></span
                 ><span class="measurement-blue"></span
                 ><span class="measurement-grey"></span>
-                <div>Tiếng Nhật - JLPT N4</div>
-                <span class="measurement-blue"></span
-                ><span class="measurement-grey"></span
-                ><span class="measurement-grey"></span>
               </div>
-              <button class="view-btn hidden" id="btn-5">● view more</button>
+              <button class="view-btn hide" id="btn-5">● view more</button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -246,30 +222,34 @@
                 <i class="ic-tools-2"></i>
               </div>
               <div class="language-skill-content hidden" id="skill">
-                <div>HTML/CSS: Fundamental</div>
+                <div>HTML/CSS: Intermediate</div>
                 <span class="measurement-blue"></span
-                ><span class="measurement-grey"></span
+                ><span class="measurement-blue"></span
                 ><span class="measurement-grey"></span>
                 <div>Javascript: Intermediate</div>
                 <span class="measurement-blue"></span
                 ><span class="measurement-blue"></span
                 ><span class="measurement-grey"></span>
-                <div>NodeJS: Intermediate</div>
+                <div>ASP.NET MVC: Intermediate</div>
                 <span class="measurement-blue"></span
                 ><span class="measurement-blue"></span
                 ><span class="measurement-grey"></span>
+                <div>NodeJS: Fundamental</div>
+                <span class="measurement-blue"></span
+                ><span class="measurement-grey"></span>
+                <span class="measurement-grey"></span>
                 <div>Bootstrap 5: Fundamental</div>
                 <span class="measurement-blue"></span
                 ><span class="measurement-grey"></span
                 ><span class="measurement-grey"></span>
               </div>
-              <button class="view-btn hidden" id="btn-6">● view more</button>
+              <button class="view-btn hide" id="btn-6">● view more</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="certificates-container">
+    <div id="certifications" class="certificates-container">
       <h3>Chứng chỉ - Giải thưởng</h3>
       <div class="certificates container">
         <div class="row">
@@ -278,15 +258,15 @@
           >
             <img
               class="certificates-img"
-              src="images/Cert_WEB.png"
+              src="images/2252282_Phan Phuoc Hung.jpg"
               alt="Cert-WEB"
             />
             <div>
-              <h4>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</h4>
-              <div>- Chứng chỉ thuộc chương trình CCDN<br />- GPA: 8.6</div>
+              <h4>OISP Scholarship</h4>
+              <div>- Học bổng dành cho sinh viên OISP<br />- GPA: 3.6/4.0</div>
             </div>
           </div>
-          <div class="certificates-cell border-bottoms col-sm-12 col-md-6">
+          <!-- <div class="certificates-cell border-bottoms col-sm-12 col-md-6">
             <img
               class="certificates-img"
               src="images/Cert_PRF.png"
@@ -310,14 +290,14 @@
               <h4>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</h4>
               <div>- Chứng chỉ thuộc chương trình CCDN<br />- GPA: 8.0</div>
             </div>
-          </div>
-          <div
+          </div> -->
+          <!-- <div
             class="border-tops border-bottoms certificates-cell col-sm-12 col-md-6"
-          ></div>
+          ></div> -->
         </div>
       </div>
     </div>
-    <div class="project">
+    <div id="projects" class="project">
       <h3>Dự án</h3>
       <div class="project-container">
         <div class="container">
@@ -328,11 +308,11 @@
                 class="project-img"
                 alt="project_1"
               />
-              <h4>CV CÁ NHÂN</h4>
+              <h4>Online CV</h4>
               <div class="project-header">
-                <div class="special-2021">2021</div>
+                <div class="special-2021">2024</div>
                 <i class="icon-user-1"></i>
-                <div>FUNiX</div>
+                <div>Individual</div>
                 <i class="icon-lamp"></i>
                 <div>Developer</div>
               </div>
@@ -352,21 +332,21 @@
                 </tr>
                 <tr>
                   <th>Công nghệ</th>
-                  <td>- HTML, CSS</td>
+                  <td>- HTML, CSS, Javascript</td>
                 </tr>
               </table>
             </div>
             <div class="col-md-4 col-sm-12">
               <img
-                src="images/project_2.png"
+                src="images/Online BookStore.png"
                 class="project-img"
                 alt="project_2"
               />
-              <h4>TRANG WEB QUẢN LÝ THÚ CƯNG</h4>
+              <h4>Online BookStore</h4>
               <div class="project-header">
-                <div class="special-2021">2021</div>
+                <div class="special-2021">2024</div>
                 <i class="icon-user-1"></i>
-                <div>FUNiX</div>
+                <div>Team</div>
                 <i class="icon-lamp"></i>
                 <div>Developer</div>
               </div>
@@ -374,9 +354,9 @@
                 <tr>
                   <th>Mô tả</th>
                   <td>
-                    Ứng dụng giúp quản lý các thông tin của thứ cưng như: Cân
-                    nặng, giống, tình trạng tiêm chủng,... Bao gồm các chứ năng
-                    thêm, sửa, xóa.
+                    Ứng dụng giúp quản lý các thông tin của của hàng sách như:
+                    Trình bày, giao dịch, nhận xét,... Bao gồm các chứ năng
+                    thêm, sửa, xóa dành riêng cho admin
                   </td>
                 </tr>
                 <tr>
@@ -387,7 +367,7 @@
                 </tr>
                 <tr>
                   <th>Công nghệ</th>
-                  <td>- HTML, CSS, Javascript</td>
+                  <td>- ASP.NET MVC</td>
                 </tr>
               </table>
             </div>
@@ -430,9 +410,16 @@
       </div>
     </div>
     <footer>
-      <a href="#"><i class="icon-facebook-circled"></i>Facebook</a>
-      <a href="#"><i class="icon-linkedin-circled"></i>Linkedin</a>
-      <a href="#"><i class="icon-github-circled"></i>Github</a>
+      <a href="https://web.facebook.com/profile.php?id=100015937365014"
+        ><i class="icon-facebook-circled"></i>Facebook</a
+      >
+      <a
+        href="https://www.linkedin.com/in/phan-ph%C6%B0%E1%BB%9Bc-h%C6%B0ng-27a757360/"
+        ><i class="icon-linkedin-circled"></i>Linkedin</a
+      >
+      <a href="https://github.com/HwngPhan/OnlineCV"
+        ><i class="icon-github-circled"></i>Github</a
+      >
     </footer>
     <script>
       const email = document.getElementById("email");

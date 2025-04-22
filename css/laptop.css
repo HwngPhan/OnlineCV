@@ -272,6 +272,7 @@ h4 {
 }
 .project-img {
   width: 100%;
+  height: 40%;
 }
 .project-header {
   display: flex;
@@ -380,21 +381,31 @@ footer i {
   border-radius: 10px;
   text-decoration: none;
 }
+.hide {
+  color: white;
+  background-color: white;
+}
 #cell-1:hover #btn-1 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
 #cell-2:hover #btn-2 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
 #cell-3:hover #btn-3 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
 #cell-4:hover #btn-4 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
 #cell-5:hover #btn-5 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
 #cell-6:hover #btn-6 {
-  display: block;
+  background-color: #f9cc63;
+  color: black;
 }
