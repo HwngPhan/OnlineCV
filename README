@@ -1,0 +1,22 @@
+# 💼 Online CV
+
+A clean and responsive **Online CV website** built using **HTML**, **CSS**, and **JavaScript** — designed to showcase personal information, skills, work experience, education, and projects in one professional place.
+
+## 🌐 Live Demo
+
+👉 [View Online CV](https://hwngphan.github.io/OnlineCV/)
+
+## 📌 Features
+
+- Fully responsive layout for mobile, tablet, and desktop
+- Clean, modern design with smooth scrolling
+- Sections: About Me, Skills, Experience, Education, Projects, and Contact
+- Contact section with social media links
+- Interactive elements using JavaScript
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Font Awesome (for icons)
